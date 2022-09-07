@@ -22,7 +22,7 @@ const props = {
     default: false
   }
 };
-const SButton = defineComponent({
+const Button = defineComponent({
   name: "SButton",
   props,
   setup(props2, {
@@ -88,14 +88,15 @@ const JSXButton = defineComponent({
 });
 const entry = {
   install(app) {
-    app.component(SButton.name, SButton);
+    app.component(Button.name, Button);
     app.component(SFCButton.name, SFCButton);
     app.component(JSXButton.name, JSXButton);
   }
 };
 export {
   JSXButton,
-  SButton,
+  Button as SButton,
   SFCButton,
   entry as default
 };
+//# sourceMappingURL=smarty-ui.mjs.map
