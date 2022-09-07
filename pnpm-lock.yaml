@@ -5,7 +5,6 @@ specifiers:
   '@vitejs/plugin-vue': 3.0.3
   '@vitejs/plugin-vue-jsx': 2.0.0
   '@vue/test-utils': 2.0.2
-  axios: ^0.27.2
   happy-dom: 6.0.4
   unocss: 0.45.6
   vite: 3.0.7
@@ -22,7 +21,6 @@ devDependencies:
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.7+vue@3.2.37
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.7+vue@3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
-  axios: 0.27.2
   happy-dom: 6.0.4
   unocss: 0.45.6_vite@3.0.7
   vite: 3.0.7
@@ -1126,15 +1124,6 @@ packages:
     resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
     dev: true
 
-  /axios/0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
-    dependencies:
-      follow-redirects: 1.15.1
-      form-data: 4.0.0
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /base64-js/1.5.1:
     resolution: {integrity: sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=}
     dev: true
@@ -1737,28 +1726,9 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /follow-redirects/1.15.1:
-    resolution: {integrity: sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-    dev: true
-
   /form-data/2.5.1:
     resolution: {integrity: sha1-8svsV7XlniNxbhKP5E1OXdI4lfQ=}
     engines: {node: '>= 0.12'}
-    dependencies:
-      asynckit: 0.4.0
-      combined-stream: 1.0.8
-      mime-types: 2.1.35
-    dev: true
-
-  /form-data/4.0.0:
-    resolution: {integrity: sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=}
-    engines: {node: '>= 6'}
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
